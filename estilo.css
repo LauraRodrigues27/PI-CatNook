@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+    background-color: #FFF2E3;
+}
+
+h1{
+    padding-top: 50px;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #CC681C;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+
+.banner{
+    background-image: url(img/gatalogo1.png);
+    background-size: cover;
+    height: 635px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+.produtos{
+    margin-top: 67;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    color: #CC681C;
+    font-family: "Coiny", system-ui;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.Iced-Coffe{
+    background-image: url(img/Iced-Coffe.png);
+    display: flex;
+}
