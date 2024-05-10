@@ -28,11 +28,26 @@ h1{
 }
 
 .capa{
-    height: 1640px 815px;
-    display: flex;
+    background-image: url(img/Capa.png);
+    background-size: cover;
+    height: 560px;
+    padding-top: 70px;
+    padding-bottom: 200px;
+    color: #FFF2E3;
+    font-size: 32px;
 }
 
-.banner{
+.capa h1{
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.capa img{
+    height: 45px;
+    margin: 60px;
+}
+
+.gatalogo{
     background-image: url(img/gatalogo1.png);
     background-size: cover;
     height: 635px;
@@ -44,7 +59,7 @@ h1{
 }
 
 .produtos{
-    margin-top: 67;
+    margin-top: 67px;
 }
 
 .titulo{
@@ -64,36 +79,51 @@ h1{
 
 .Iced-Coffe{
     background-image: url(img/Iced-Coffe.png);
-    width: 265px;
-    padding-top: 380px;
-    padding-right: 20px;
+    width: 285px;
+    padding-bottom: 30px;
     text-align: center;
     flex-wrap: wrap;
+    display: flex;
+    align-items: end;
+    height: 500px;
+    justify-content: space-between;
 }
 
 .Frappuccino{
     background-image: url(img/Frappuccino.png);
-    width: 265px;
-    padding-top: 630px;
-    padding-right: 20px;
+    width: 285px;
+    padding-bottom: 140px;
+    padding-top: 50px;
     text-align: center;
     flex-wrap: wrap;
+    display: flex;
+    align-items: end;
+    height: 495px;
+    justify-content: space-between;
 }
 
 .Macarons{
     background-image: url(img/Macarons.png);
-    width: 265px;
-    padding-top: 380px;
-    padding-right: 20px;
-    
+    width: 285px;
+    padding-bottom: 187px;
+    text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: end;
+    height: 500px;
+    justify-content: space-between;
 }
 
 .Pankecat{
     background-image: url(img/Pankecat.png);
-    width: 265px;
-    padding-top: 380px;
-    padding-right: 20px;
+    width: 285px;
+    padding-bottom: 30px;
     text-align: center;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: end;
+    height: 500px;
+    justify-content: space-between;
 }
 
 .coluna p{
