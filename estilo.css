@@ -11,6 +11,7 @@ body{
 
 h1{
     padding-top: 50px;
+    margin-top: 20px;
 }
 
 .cabecalho{
@@ -80,13 +81,15 @@ h1{
 .Iced-Coffe{
     background-image: url(img/Iced-Coffe.png);
     width: 285px;
-    padding-bottom: 30px;
+    padding-bottom: 135px;
     text-align: center;
     flex-wrap: wrap;
     display: flex;
     align-items: end;
     height: 500px;
     justify-content: space-between;
+    color: #FFF2E3;
+    background-repeat: no-repeat;
 }
 
 .Frappuccino{
@@ -100,6 +103,7 @@ h1{
     align-items: end;
     height: 495px;
     justify-content: space-between;
+    background-repeat: no-repeat;
 }
 
 .Macarons{
@@ -112,6 +116,7 @@ h1{
     align-items: end;
     height: 500px;
     justify-content: space-between;
+    background-repeat: no-repeat;
 }
 
 .Pankecat{
@@ -124,6 +129,7 @@ h1{
     align-items: end;
     height: 500px;
     justify-content: space-between;
+    background-repeat: no-repeat;
 }
 
 .coluna p{
