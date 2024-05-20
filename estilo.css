@@ -81,13 +81,13 @@ h1{
 .Iced-Coffe{
     background-image: url(img/Iced-Coffe.png);
     width: 285px;
-    padding-bottom: 135px;
+    padding-bottom: 166px;
     text-align: center;
     flex-wrap: wrap;
     display: flex;
     align-items: end;
-    height: 500px;
-    justify-content: space-between;
+    height: 526px;
+    justify-content: space-evenly;
     color: #FFF2E3;
     background-repeat: no-repeat;
 }
@@ -95,40 +95,42 @@ h1{
 .Frappuccino{
     background-image: url(img/Frappuccino.png);
     width: 285px;
-    padding-bottom: 140px;
-    padding-top: 50px;
+    padding-bottom: 166px;
     text-align: center;
     flex-wrap: wrap;
     display: flex;
     align-items: end;
-    height: 495px;
-    justify-content: space-between;
+    height: 526px;
+    justify-content: space-evenly;
+    color: #FFF2E3;
     background-repeat: no-repeat;
 }
 
 .Macarons{
     background-image: url(img/Macarons.png);
     width: 285px;
-    padding-bottom: 187px;
+    padding-bottom: 166px;
     text-align: center;
     flex-wrap: wrap;
     display: flex;
     align-items: end;
-    height: 500px;
-    justify-content: space-between;
+    height: 526px;
+    justify-content: space-evenly;
+    color: #FFF2E3;
     background-repeat: no-repeat;
 }
 
 .Pankecat{
     background-image: url(img/Pankecat.png);
     width: 285px;
-    padding-bottom: 30px;
+    padding-bottom: 166px;
     text-align: center;
     flex-wrap: wrap;
     display: flex;
     align-items: end;
-    height: 500px;
-    justify-content: space-between;
+    height: 526px;
+    justify-content: space-evenly;
+    color: #FFF2E3;
     background-repeat: no-repeat;
 }
 
