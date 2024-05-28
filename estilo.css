@@ -171,9 +171,9 @@ h1{
 }
 
 .gatos-produtos {
-    height: 150px;
+    height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: -120px;
 }
