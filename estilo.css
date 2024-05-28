@@ -51,7 +51,7 @@ h1{
 .gatalogo{
     background-image: url(img/gatalogo1.png);
     background-size: cover;
-    height: 635px;
+    height: 570px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -65,7 +65,7 @@ h1{
 
 .titulo{
     text-align: center;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: normal;
     color: #CC681C;
     font-family: "Coiny", system-ui;
@@ -175,3 +175,10 @@ h1{
     font-size: 50px;
 }
 
+.quem-somos {
+    text-align: center;
+}
+
+.quem-somos p {
+    text-align: start;
+}
