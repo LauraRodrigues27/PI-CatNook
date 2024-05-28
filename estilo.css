@@ -162,12 +162,8 @@ h1{
 }
 
 .titulo-gatalogo {
-    background-image: url(img/fundo-gatalogo.png);
-    height: 233px;
-    padding-bottom: 166px;
-    text-align: center;
-    color: #FFF2E3;
-    background-repeat: no-repeat;
+    margin: -12px;
+    margin-top: -160px;
 }
 
 .gatos-produtos {
@@ -176,4 +172,6 @@ h1{
     flex-wrap: wrap;
     justify-content: center;
     margin-top: -120px;
+    font-size: 50px;
 }
+
