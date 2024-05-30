@@ -162,7 +162,7 @@ h1{
 }
 
 .titulo-gatalogo {
-    margin: -12px;
+    margin: -16px;
     margin-top: -160px;
 }
 
@@ -175,6 +175,7 @@ h1{
     font-size: 50px;
 }
 
-.quemsomos {
-    text-align: center;
+.quemsomos img {
+    display: flex;
+    flex-wrap: wrap;
 }
