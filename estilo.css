@@ -64,6 +64,19 @@ h1 img {
     padding-right: 44px;
 }
 
+.h1-gatalogo {
+text-align: center;
+margin-top: 125px;
+background-image: url(img/fundo-gatalogo.png);
+padding-top: 175px;
+padding-bottom: 90px;
+background-repeat: no-repeat;
+background-size: 100% auto;
+background-position: center;
+color: #FCB470;
+font-size: 65px;
+}
+
 .produtos{
     margin-top: 67px;
 }
@@ -167,7 +180,7 @@ h1 img {
 }
 
 .titulo-gatalogo {
-    margin: -16px;
+    margin: -12px;
     margin-top: -160px;
 }
 
@@ -178,6 +191,14 @@ h1 img {
     justify-content: center;
     margin-top: -120px;
     font-size: 50px;
+}
+
+.quem-somos {
+    text-align: center;
+}
+
+.quem-somos2 {
+    text-align: center;
 }
 
 .quemsomos img {
