@@ -195,13 +195,22 @@ font-size: 65px;
 
 .quem-somos {
     text-align: center;
-}
-
-.quem-somos2 {
-    text-align: center;
-}
-
-.quemsomos img {
+    background-image: url(img/fundo-quemsomos.png);
+    background-size: cover;
+    height: 1018px;
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+.quem-somos-2 img {
+    margin: 90px;
+    margin-top: -172px;
+}
+
+.quem-somos-2 .linha p {
+    column-count: 2;
+    font-size: 125%;
 }
