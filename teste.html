@@ -47,9 +47,10 @@
 
         <div class="Produtos">
             <h1 class="titulo" id="titulo-produtos">Produtos</h1>
-            <div class="carrossel">
+            <div class="linha">
+                <img src="img/seta-esquerda.png" alt="seta esquerda">
                 <div class="Iced-Coffe">
-                    <div>
+                    <div style="margin-bottom: -17px;">
                         <h1>Iced Coffe</h1>
                         <p>
                             Uma mistura refrescante de <br>
@@ -61,7 +62,7 @@
                     </div>
                 </div>
                 <div class="Frappuccino">
-                    <div>
+                    <div style="margin-bottom: -17px;">
                         <h1>Frappuccino</h1>
                         <p>
                             Uma mistura perfeita <br>
@@ -73,7 +74,7 @@
                     </div>
                 </div>
                 <div class="Macarons">
-                    <div>
+                    <div style="margin-bottom: 0px;">
                         <h1>Macarons</h1>
                         <p>
                             Uma mistura perfeita de crocância <br>
@@ -84,7 +85,7 @@
                     </div>
                 </div>
                 <div class="Pankecat">
-                    <div>
+                    <div style="margin-bottom: 18px;">
                         <h1>Pankecat</h1>
                         <p>
                             Uma mistura perfeita de <br>
@@ -94,28 +95,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="Pankecat">
-                    <div>
-                        <h1>Pankecat</h1>
-                        <p>
-                            Uma mistura perfeita de <br>
-                            crocância e maciez, disponível <br>
-                            em uma variedade de <br>
-                            sabores irresistíveis.
-                        </p>
-                    </div>
-                </div>
-                <div class="Pankecat">
-                    <div>
-                        <h1>Pankecat</h1>
-                        <p>
-                            Uma mistura perfeita de <br>
-                            crocância e maciez, disponível <br>
-                            em uma variedade de <br>
-                            sabores irresistíveis.
-                        </p>
-                    </div>
-                </div>
+                <img src="img/seta-direita.png" alt="seta direita">
             </div>
         </div>
 
@@ -129,11 +109,12 @@
         </div>
 
         <div class="quem-somos">
-            <h1 class="titulo" id="titulo-quemsomos"><img src="img/gato-quem-somos.png" alt="" class="gato-quem-somos">Quem somos?</h1>
-            <div><img src="img/imagens-quem-somos.png" alt=""></div>
+            <h1 class="titulo" id="titulo-quemsomos">Quem somos?</h1>
 
-            <div class="texto-quem-somos">
-                    <div>
+            <div class="quem-somos-2">
+
+                <div class="linha">
+                    <p>
                         O CatNook café é um refúgio aconchegante que
                         combina a paixão por gatos com a indulgência
                         de uma xícara de café quente. Os visitantes
@@ -144,13 +125,6 @@
                         adoção, destacando a importância de considerar
                         cuidadosamente o compromisso de longo prazo.
 
-                        <figcaption>
-                        <a href="#"><!--link do instagram no lugar do #--></a></a><img src="img/instagram.png" class="instagram" alt="instagram"></a>
-                        <h3>@catnookcafe</h3>
-                        </figcaption>
-
-                    </div>
-                    <div>
                         O café frequentemente colabora com abrigos
                         de animais locais, oferecendo aos gatos
                         resgatados uma segunda chance enquanto educam
@@ -159,12 +133,7 @@
                         celebra o amor pelos animais, mas também enfatiza
                         a necessidade de cuidar deles de maneira
                         comprometida e responsável.
-
-                        <figcaption>
-                            <a href="#"><!--link do face no lugar do #--></a></a><img src="img/face.png" class="face" alt="facebook"></a>
-                            <h3>@catnookcafe</h3>
-                        </figcaption>
-                    </div>
+                    </p>
                 </div>
             </div>
         </div>
@@ -185,9 +154,9 @@
         <script src="slick-1.8.1/slick/slick.js"></script>
 
         <script>
-            $('.carrossel').slick({
+            $('.Produtos').slick({
                 infinite: true,
-                slidesToShow: 4,
+                slidesToShow: 2,
                 slidesToScroll: 1
             })
         </script>
