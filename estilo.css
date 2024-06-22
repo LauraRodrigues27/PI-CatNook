@@ -182,6 +182,7 @@ font-size: 65px;
     font-size: 50px;
 }
 
+<<<<<<< Updated upstream
 .quem-somos {
     text-align: center;
     background-color: #FCB470;
@@ -211,3 +212,21 @@ font-size: 65px;
     margin-right: 30px;
     height: 65px;
 }
+=======
+.quemsomos img {
+    margin-top: -2%;
+    padding-left: 10%;
+}
+
+.quemsomos-2 h1 {
+    margin: -16px;
+    margin-top: -160px;
+}
+
+.quemsomos-2 .linha{
+    background-color: red;
+}
+.quemsomos-2 p {
+    width: 50%;    
+}
+>>>>>>> Stashed changes
