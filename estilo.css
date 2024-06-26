@@ -54,9 +54,12 @@ h1 img {
 }
 
 .gatalogo{
-    background-image: url(img/gatalogo1.png);
-    background-size: cover;
-    height: 570px;
+    height: 615px;
+}
+
+.gatalogo img{
+    width: 100% auto;
+    height: 635px;
 }
 
 .h1-gatalogo {
@@ -68,8 +71,15 @@ padding-bottom: 90px;
 background-repeat: no-repeat;
 background-size: 100% auto;
 background-position: center;
-color: #FCB470;
+color: #fdfcfb;
 font-size: 65px;
+}
+
+.gato-gatalogo{
+    margin-top: -162px;
+    margin-right: 80px;
+    position: relative;
+    text-align: end;
 }
 
 .Produtos{
@@ -80,11 +90,11 @@ font-size: 65px;
 }
 
 .titulo{
-    text-align: center;
     font-size: 60px;
     font-weight: normal;
     color: #CC681C;
     font-family: "Coiny", system-ui;
+    padding-right: 210px;
 }
 
 .texto-quem-somos{
@@ -165,7 +175,7 @@ font-size: 65px;
 
 .titulo-gatalogo {
     margin: -15px;
-    margin-top: -160px;
+    margin-top: -210px;
 }
 
 .gatos-produtos {
@@ -185,6 +195,10 @@ font-size: 65px;
     padding-right: 44px;
 }  
 
+.loja{
+    text-align: center;
+}
+
 .slick-prev:before, .slick-next:before{
     font-size: 48px!important;
     color: #CC681C!important;
@@ -199,6 +213,7 @@ font-size: 65px;
     vertical-align: middle;
     width: 300px;
     height: auto;
+    position: relative;
 }
 
 .instagram,
