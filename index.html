@@ -145,16 +145,23 @@
             </div>
         </div>
 
+        <div class="gato-gatalogo"><img src="img/gato-gatalogo.png"></div>
+
         <div class="titulo-gatalogo">
             <h1 class="h1-gatalogo" id="titulo-gatologo">Gatálogo</h1>
         </div>
 
         <div class="gatalogo">
-            
+            <div class="carrossel2">
+            <img src="img/gatalogo1.png">
+            <img src="img/gatalogo2.jpeg">
+            <img src="img/gatalogo3.jpeg">
+            <img src="img/gatalogo4.jpeg">
+            </div>
         </div>
-
+        
         <div class="quem-somos">
-            <h1 class="titulo" id="titulo-quemsomos"><img src="img/gato-quem-somos.png" alt="" class="gato-quem-somos">Quem somos?</h1>
+            <h1 class="titulo" id="titulo-quemsomos"><img src="img/gato-quem-somos.png" alt="" class="gato-quem-somos">     Quem somos?</h1>
             <div><img src="img/imagens-quem-somos.png" alt=""></div>
 
             <div class="texto-quem-somos">
@@ -193,6 +200,9 @@
                 </div>
             </div>
         </div>
+
+        <div class="loja"><img src="img/loja.png"></div>
+
         <div class="contato">
             <h2 class="titulo" id="contato">Contato</h2>
             <iframe
@@ -215,6 +225,12 @@
                 slidesToShow: 4,
                 slidesToScroll: 1
             })
+
+            $('.carrossel2').slick({
+            autoplay: true,
+            arrows: false,
+            autoplaySpeed: 2000
+        })
         </script>
     </main>
 </body>
