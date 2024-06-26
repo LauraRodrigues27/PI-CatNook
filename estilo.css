@@ -57,11 +57,6 @@ h1 img {
     background-image: url(img/gatalogo1.png);
     background-size: cover;
     height: 570px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 44px;
-    padding-right: 44px;
 }
 
 .h1-gatalogo {
@@ -169,7 +164,7 @@ font-size: 65px;
 }
 
 .titulo-gatalogo {
-    margin: -12px;
+    margin: -15px;
     margin-top: -160px;
 }
 
