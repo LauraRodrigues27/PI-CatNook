@@ -110,7 +110,12 @@ font-size: 65px;
 .Iced-Coffe,
 .Frappuccino,
 .Macarons,
-.Pankecat{
+.Pankecat,
+.salmaoduba,
+.scrambled-cat,
+.cheesecake,
+.gatoccino
+{
     background-image: url(img/Iced-Coffe.png);
     width: 285px!important;
     padding-bottom: 166px;
@@ -134,6 +139,22 @@ font-size: 65px;
 
 .Pankecat{
     background-image: url(img/Pankecat.png);
+}
+
+.salmaoduba{
+    background-image: url(img/salmaoduba.png);
+}
+
+.scrambled-cat{
+    background-image: url(img/scrambled-cat.png);
+}
+
+.cheesecake{
+    background-image: url(img/cheesecake.png);
+}
+
+.gatoccino{
+    background-image: url(img/gatoccino.png);
 }
 
 .coluna p{
