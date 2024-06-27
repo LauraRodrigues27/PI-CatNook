@@ -72,7 +72,7 @@ background-repeat: no-repeat;
 background-size: 100% auto;
 background-position: center;
 color: #fdfcfb;
-font-size: 65px;
+font-size: 58px;
 }
 
 .gato-gatalogo{
@@ -83,7 +83,6 @@ font-size: 65px;
 }
 
 .Produtos{
-    margin-top: 67px;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
@@ -94,7 +93,15 @@ font-size: 65px;
     font-weight: normal;
     color: #CC681C;
     font-family: "Coiny", system-ui;
-    padding-right: 210px;
+    margin-left: 420px;
+}
+
+.titulo-quemsomos{
+    font-size: 50px;
+    font-weight: normal;
+    color: #CC681C;
+    font-family: "Coiny", system-ui;
+    margin-left: -230px;
 }
 
 .texto-quem-somos{
@@ -205,7 +212,6 @@ font-size: 65px;
     flex-wrap: wrap;
     justify-content: center;
     margin-top: -120px;
-    font-size: 50px;
 }
 
 .quem-somos {
@@ -216,8 +222,8 @@ font-size: 65px;
     padding-right: 44px;
 }  
 
-.loja{
-    text-align: center;
+.loja img{
+    width: 100%;    
 }
 
 .slick-prev:before, .slick-next:before{
