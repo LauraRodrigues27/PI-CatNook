@@ -55,6 +55,7 @@ h1 img {
 
 .gatalogo{
     height: 615px;
+    margin-top: -20px;
 }
 
 .gatalogo img{
@@ -202,7 +203,7 @@ font-size: 58px;
 }
 
 .titulo-gatalogo {
-    margin: -15px;
+    width: 100%;
     margin-top: -210px;
 }
 
